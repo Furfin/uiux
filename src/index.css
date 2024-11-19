@@ -24,11 +24,18 @@ a:hover {
 
 body {
   margin: 0;
-  font-family: 'Tangerine', sans-serif;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #B2BBAB
+}
+
+header {
+  background-color: #C8CAC7;
+  padding: 10px;
+}
+
+div {
+  align-items: center;
 }
 
 h1 {
@@ -53,6 +60,83 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.text-on-image {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 15%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.about-start {
+  place-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Убедитесь, что изображение масштабируется */
+}
+
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.textBox {
+  position: absolute;
+  bottom: 60%; /* Позиция блока с текстом снизу */
+  left: 6%; /* Позиция блока с текстом слева */
+  background-color: rgba(0, 0, 0, 0.5); /* Черный фон с прозрачностью */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Внутренние отступы */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.footerBox {
+  background-color: rgba(0, 0, 0, 0.9); /* Черный фон с прозрачностью */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Внутренние отступы */;
+}
+
+.quoteBox {
+  background-color: rgba(62, 59, 59, 0.9); /* Черный фон с прозрачностью */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Внутренние отступы */;
+}
+
+.reviewsBox {
+  background-color: rgba(62, 59, 59, 0.4); /* Черный фон с прозрачностью */
+  color: white; /* Цвет текста */
+  margin-left: 100px;
+  height: 100px;
+  padding: 10px 20px; /* Внутренние отступы */;
+}
+
+.ratingBox {
+  margin-left: 100px;
+  height: 1000px;
+  width: 1000px;
+}
+
+
+.reviewBox {
+  background-color: rgba(251, 251, 251, 0.5); /* Белый фон с прозрачностью */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Внутренние отступы */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
 }
 
 @media (prefers-color-scheme: light) {
