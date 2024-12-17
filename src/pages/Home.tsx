@@ -25,25 +25,30 @@ function Home() {
             <div className='reviews'>
                 <Demo
                 datas={[
-                    { name: 'this is sample data',
-                        review: 'gjbkfjhgbskjfhgblkajbglwksjebfgjdfhbglskf',
-                        avatar: 'https://bit.ly/sage-adebayo'
+                    { name: 'Name Surname1',
+                        review: '«Если в раю нет собак, то я хочу после смерти отправиться туда, куда ушли они»\n– Уилл Роджерс',
+                        avatar: 'https://bit.ly/sage-adebayo',
+                        stars: 5
                     },
-                    { name: 'this is sample data',
-                        review: 'gjbkfjhgbskjfhgblkajbglwksjebfgjdfhbglskf',
-                        avatar: 'https://bit.ly/sage-adebayo'
+                    { name: 'Name Surname2',
+                        review: '«Если в раю нет собак, то я хочу после смерти отправиться туда, куда ушли они»\n– Уилл Роджерс',
+                        avatar: 'https://bit.ly/sage-adebayo',
+                        stars: 1
                     },
-                    { name: 'this is sample data',
-                        review: 'gjbkfjhgbskjfhgblkajbglwksjebfgjdfhbglskf',
-                        avatar: 'https://bit.ly/sage-adebayo'
+                    { name: 'Name Surname3',
+                        review: '«Если в раю нет собак, то я хочу после смерти отправиться туда, куда ушли они»\n– Уилл Роджерс',
+                        avatar: 'https://bit.ly/sage-adebayo',
+                        stars: 5
                     },
-                    { name: 'this is sample data',
-                        review: 'gjbkfjhgbskjfhgblkajbglwksjebfgjdfhbglskf',
-                        avatar: 'https://bit.ly/sage-adebayo'
+                    { name: 'Name Surname4',
+                        review: '«Если в раю нет собак, то я хочу после смерти отправиться туда, куда ушли они»\n– Уилл Роджерс',
+                        avatar: 'https://bit.ly/sage-adebayo',
+                        stars: 2
                     },
-                    { name: 'this is sample data',
-                        review: 'gjbkfjhgbskjfhgblkajbglwksjebfgjdfhbglskf',
-                        avatar: 'https://bit.ly/sage-adebayo'
+                    { name: 'Name Surname5',
+                        review: '«Если в раю нет собак, то я хочу после смерти отправиться туда, куда ушли они»\n– Уилл Роджерс',
+                        avatar: 'https://bit.ly/sage-adebayo',
+                        stars: 4
                     },
                 ]}
                 ></Demo>
